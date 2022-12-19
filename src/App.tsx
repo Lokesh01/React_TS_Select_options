@@ -32,8 +32,11 @@ function App() {
         alignItems: "center",
       }}
     >
+      <h1>SINGLE SELECT</h1>
+      <br />
       <Select options={options} value={value1} onChange={(e) => setValue1(e)} />
       <br />
+      <h1>MULTI SELECT</h1>
       <Select multiple options={options} value={value2} onChange={(e) => setValue2(e)} />
     </div>
   );
